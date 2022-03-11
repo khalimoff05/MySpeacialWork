@@ -1,0 +1,42 @@
+.icon{
+    width: 370px;
+    height: 250px;
+    margin-left: 39%;
+    margin-top: 18%;
+
+}
+body{
+   background: black;
+   
+}
+.icon:hover{
+   transform: scale(1.5);
+   background: none;
+}
+
+@keyframes mysql {
+
+    0%{
+       transform: translateX(0px);
+       background-color: orange;
+   }
+   /*30%{
+       transform: translateX(50px);
+   }
+   60%{
+       transform: translateX(70px);
+   }
+   80%{
+       transform: translateX(50px);
+   } */
+   100%{
+       transform: translateX(480px);
+       background-color:orange;
+   }
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+     margin-top: 0px;
+}
